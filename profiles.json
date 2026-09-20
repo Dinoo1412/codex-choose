@@ -1,0 +1,72 @@
+﻿[
+    {
+        "id":  "5e991a0538724e2189cfcf2008bc517b",
+        "name":  "官方 ChatGPT / OpenAI",
+        "providerId":  "openai",
+        "model":  "gpt-5.6-terra",
+        "baseUrl":  "",
+        "authMode":  "builtin",
+        "envKey":  "CUSTOM_API_KEY",
+        "authCommand":  "",
+        "authArgs":  [
+
+                     ],
+        "webSearch":  "live"
+    },
+    {
+        "id":  "d5bb2117aa6f4c23a72e6229d40730ef",
+        "name":  "OpenRouter 模板",
+        "providerId":  "openrouter",
+        "model":  "请填写准确模型ID",
+        "baseUrl":  "https://openrouter.ai/api/v1",
+        "authMode":  "env",
+        "envKey":  "OPENROUTER_API_KEY",
+        "authCommand":  "",
+        "authArgs":  [
+
+                     ],
+        "webSearch":  "disabled"
+    },
+    {
+        "id":  "0b39589b0f994be58f942ba0e107bc2f",
+        "name":  "自定义 Responses API",
+        "providerId":  "custom_responses",
+        "model":  "请填写模型ID",
+        "baseUrl":  "https://example.com/v1",
+        "authMode":  "env",
+        "envKey":  "CUSTOM_RESPONSES_API_KEY",
+        "authCommand":  "",
+        "authArgs":  [
+
+                     ],
+        "webSearch":  "disabled"
+    },
+    {
+        "id":  "c87256c109944089842cf07842a98d1c",
+        "name":  "OpenAI 登录代理",
+        "providerId":  "openai_proxy",
+        "model":  "gpt-6-astra",
+        "baseUrl":  "https://torchai.ai/v1",
+        "authMode":  "env",
+        "envKey":  "CUSTOM_API_KEY",
+        "authCommand":  "",
+        "authArgs":  [
+
+                     ],
+        "webSearch":  "disabled"
+    },
+    {
+        "id":  "1a46b05b6177456b8228a0dab3f240df",
+        "name":  "本地无认证 Provider",
+        "providerId":  "local_responses",
+        "model":  "local-model",
+        "baseUrl":  "http://127.0.0.1:11434/v1",
+        "authMode":  "none",
+        "envKey":  "CUSTOM_API_KEY",
+        "authCommand":  "",
+        "authArgs":  [
+
+                     ],
+        "webSearch":  "disabled"
+    }
+]
